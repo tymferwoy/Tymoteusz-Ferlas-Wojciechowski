@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reboot – Focus App</title>
+    <meta name="description" content="Reboot is a minimalistic focus tool that helps users reduce digital distractions by limiting access to selected applications during focus sessions.">
+    <meta name="keywords" content="focus app, productivity, screen time, app blocker, digital wellbeing, iOS">
+    <meta name="author" content="Tymoteusz Ferlas">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Reboot – Focus App">
+    <meta property="og:description" content="A minimalistic focus tool that helps you reduce digital distractions.">
+    <meta property="og:type" content="website">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -18,7 +27,7 @@
                 <div class="nav-links">
                     <a href="#about">About</a>
                     <a href="#features">Features</a>
-                    <a href="#privacy">Privacy</a>
+                    <a href="privacy_policy_rebootapp.html">Privacy</a>
                     <a href="#support">Support</a>
                 </div>
             </div>
@@ -32,9 +41,17 @@
                 <h1>Reboot – Focus App</h1>
                 <p class="hero-description">
                     Reboot is a minimalistic focus tool that helps users reduce digital distractions 
-                    by limiting access to selected applications during user-initiated focus sessions 
-                    or custom schedules. Built using Apple's official Screen Time APIs.
+                    by limiting access to selected applications during user-initiated focus sessions. 
+                    Built using Apple's official Screen Time APIs.
                 </p>
+                <!-- App Store Badge (uncomment when available) -->
+                <!--
+                <div class="app-store-badge">
+                    <a href="https://apps.apple.com/app/reboot" target="_blank">
+                        <img src="app-store-badge.svg" alt="Download on the App Store">
+                    </a>
+                </div>
+                -->
             </div>
         </div>
     </section>
@@ -52,8 +69,8 @@
                 </p>
                 <p>
                     The app gives users full control over their digital environment, allowing them to 
-                    create custom schedules and manage which applications they want to limit during 
-                    focus sessions. No tracking, spying, or monitoring takes place.
+                    start focus sessions with a simple NFC card scan. No tracking, no spying, no monitoring – 
+                    just a simple tool to help you stay focused.
                 </p>
             </div>
         </div>
@@ -66,87 +83,105 @@
                 <h2>Features</h2>
                 <div class="features-grid">
                     <div class="feature-card">
-                        <h3>User-Initiated Focus Sessions</h3>
-                        <p>Start and stop focus sessions whenever you need them. Complete control in your hands.</p>
+                        <h3>NFC Card Control</h3>
+                        <p>Start and stop focus sessions by scanning your physical Reboot NFC card. A tangible commitment to focus.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>Custom Schedules</h3>
-                        <p>Create personalized focus schedules that match your daily routine and productivity goals.</p>
+                        <h3>User-Initiated Sessions</h3>
+                        <p>You control when focus sessions start and end. No automatic monitoring or forced restrictions.</p>
                     </div>
                     <div class="feature-card">
                         <h3>App Selection</h3>
                         <p>Choose exactly which apps to limit using Apple's Family Activity Picker interface.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>Screen Time API Integration</h3>
-                        <p>Built using Apple's official FamilyControls, DeviceActivity, and ManagedSettings frameworks.</p>
+                        <h3>Focus Statistics</h3>
+                        <p>Track your focus sessions, build streaks, and see your productivity progress over time.</p>
                     </div>
                     <div class="feature-card">
                         <h3>Privacy First</h3>
-                        <p>No device usage data collection, no tracking, no analytics. Your focus sessions stay on your device.</p>
+                        <p>No device usage data collection, no tracking, no analytics. Your focus sessions stay private.</p>
                     </div>
                     <div class="feature-card">
-                        <h3>No Data Sharing</h3>
-                        <p>All permissions are requested through Apple's official APIs. Nothing leaves your device without your control.</p>
+                        <h3>Screen Time API</h3>
+                        <p>Built using Apple's official FamilyControls, DeviceActivity, and ManagedSettings frameworks.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Privacy Policy Section -->
-    <section id="privacy" class="section">
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section">
         <div class="container">
             <div class="section-content fade-in-scroll">
-                <h2>Privacy Policy</h2>
-                <p class="privacy-intro">
-                    Your privacy is important to us. This policy explains how Reboot handles your data.
-                </p>
-                
-                <div class="privacy-content">
-                    <h3>Data Collection</h3>
-                    <p>
-                        Reboot does NOT collect Screen Time data. We do NOT collect device usage data. 
-                        We only store user-created schedules and session durations that you explicitly create.
-                    </p>
-
-                    <h3>Data Storage</h3>
-                    <p>
-                        Schedule data is stored using Firebase Firestore solely for account synchronization 
-                        and schedule backup. All data is user-controlled and can be deleted at any time.
-                    </p>
-
-                    <h3>Data Sharing</h3>
-                    <p>
-                        We do NOT share your data with third parties. Your focus sessions, schedules, 
-                        and app selections remain private.
-                    </p>
-
-                    <h3>Analytics and Tracking</h3>
-                    <p>
-                        No analytics are collected without explicit user consent. We do not track your 
-                        behavior or monitor your device activity.
-                    </p>
-
-                    <h3>Screen Time Permissions</h3>
-                    <p>
-                        Reboot uses Apple's Screen Time APIs (FamilyControls, DeviceActivity, ManagedSettings) 
-                        with explicit user permission. These permissions are required for the app to function 
-                        and are requested through Apple's official authorization flows.
-                    </p>
-
-                    <h3>User Rights</h3>
-                    <p>
-                        You have full control over your data. You can delete your account and all associated 
-                        data at any time from within the app settings.
-                    </p>
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Select Apps</h3>
+                            <p>Choose which apps you want to block during focus sessions using Apple's secure app picker.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Scan Your Card</h3>
+                            <p>Hold your Reboot NFC card near your iPhone to start a focus session.</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Stay Focused</h3>
+                            <p>Selected apps are blocked. When you're done, scan your card again to end the session.</p>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Summary Section -->
+    <section id="privacy-summary" class="section section-gray">
+        <div class="container">
+            <div class="section-content fade-in-scroll">
+                <h2>Your Privacy Matters</h2>
+                <p class="privacy-intro">
+                    Reboot is built with privacy as a core principle. Here's what you need to know:
+                </p>
+                <div class="privacy-highlights">
+                    <div class="privacy-item">
+                        <span class="privacy-icon">✓</span>
+                        <span>No Screen Time data collection</span>
+                    </div>
+                    <div class="privacy-item">
+                        <span class="privacy-icon">✓</span>
+                        <span>No device usage monitoring</span>
+                    </div>
+                    <div class="privacy-item">
+                        <span class="privacy-icon">✓</span>
+                        <span>No third-party analytics</span>
+                    </div>
+                    <div class="privacy-item">
+                        <span class="privacy-icon">✓</span>
+                        <span>No data sold to advertisers</span>
+                    </div>
+                    <div class="privacy-item">
+                        <span class="privacy-icon">✓</span>
+                        <span>Delete your data anytime</span>
+                    </div>
+                </div>
+                <p class="privacy-link">
+                    <a href="privacy_policy_rebootapp.html">Read our full Privacy Policy →</a>
+                </p>
             </div>
         </div>
     </section>
 
     <!-- Support Section -->
-    <section id="support" class="section section-gray">
+    <section id="support" class="section">
         <div class="container">
             <div class="section-content fade-in-scroll">
                 <h2>Support</h2>
@@ -156,12 +191,16 @@
                 <p class="contact-info">
                     For support, contact: <a href="mailto:tymoteusz707@gmail.com">tymoteusz707@gmail.com</a>
                 </p>
+                <div class="support-links">
+                    <a href="privacy_policy_rebootapp.html" class="support-link">Privacy Policy</a>
+                    <a href="terms_of_service.html" class="support-link">Terms of Service</a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Developer Info Section -->
-    <section id="developer" class="section">
+    <section id="developer" class="section section-gray">
         <div class="container">
             <div class="section-content fade-in-scroll">
                 <h2>Developer Information</h2>
@@ -178,6 +217,11 @@
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 Reboot. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="privacy_policy_rebootapp.html">Privacy Policy</a> · 
+                <a href="terms_of_service.html">Terms of Service</a> · 
+                <a href="mailto:tymoteusz707@gmail.com">Contact</a>
+            </p>
         </div>
     </footer>
 
