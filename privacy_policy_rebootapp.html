@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy – Reboot App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">Reboot</a>
+                <div class="nav-links">
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#features">Features</a>
+                    <a href="privacy_policy_rebootapp.html">Privacy</a>
+                    <a href="index.html#support">Support</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Privacy Policy Content -->
+    <section class="legal-page">
+        <div class="container">
+            <div class="legal-content fade-in">
+                <h1>Privacy Policy</h1>
+                <p class="last-updated">Last Updated: January 3, 2026</p>
+                
+                <div class="legal-section">
+                    <h2>Introduction</h2>
+                    <p>
+                        Reboot ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy 
+                        explains how we collect, use, disclose, and safeguard your information when you use our 
+                        mobile application Reboot (the "App"). Please read this Privacy Policy carefully. By using 
+                        the App, you agree to the collection and use of information in accordance with this policy.
+                    </p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Information We Collect</h2>
+                    
+                    <h3>Information You Provide</h3>
+                    <p>We may collect information that you voluntarily provide when using the App:</p>
+                    <ul>
+                        <li><strong>Account Information:</strong> Email address and password when you create an account</li>
+                        <li><strong>Focus Session Data:</strong> Duration and timestamps of focus sessions you initiate</li>
+                        <li><strong>Card Information:</strong> NFC card identifiers that you register with the App</li>
+                        <li><strong>App Preferences:</strong> Your selected apps to block during focus sessions (stored as anonymized tokens, not app names)</li>
+                    </ul>
+
+                    <h3>Information We Do NOT Collect</h3>
+                    <p>We want to be clear about what we do NOT collect:</p>
+                    <ul>
+                        <li>We do NOT collect your Screen Time data or device usage statistics</li>
+                        <li>We do NOT monitor which apps you use or how long you use them</li>
+                        <li>We do NOT access your contacts, photos, messages, or other personal content</li>
+                        <li>We do NOT track your location</li>
+                        <li>We do NOT collect data from children under 13</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>How We Use Your Information</h2>
+                    <p>We use the information we collect to:</p>
+                    <ul>
+                        <li>Provide and maintain the App's functionality</li>
+                        <li>Sync your focus session history across your devices</li>
+                        <li>Enable NFC card authentication for starting/stopping focus sessions</li>
+                        <li>Display your focus statistics and streaks within the App</li>
+                        <li>Respond to your support requests</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Screen Time API Usage</h2>
+                    <p>
+                        Reboot uses Apple's Screen Time APIs (FamilyControls, DeviceActivity, and ManagedSettings 
+                        frameworks) to block apps during focus sessions. Important points about this usage:
+                    </p>
+                    <ul>
+                        <li>These APIs require your explicit permission before activation</li>
+                        <li>App blocking only occurs during focus sessions that YOU initiate</li>
+                        <li>We cannot see which specific apps you select to block – Apple's API uses anonymized tokens</li>
+                        <li>All Screen Time functionality runs locally on your device</li>
+                        <li>You can revoke Screen Time permissions at any time in your device Settings</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Data Storage and Security</h2>
+                    <p>
+                        We use Firebase (provided by Google) to store your account and session data. Your data 
+                        is protected by:
+                    </p>
+                    <ul>
+                        <li>Secure HTTPS encryption for all data transmission</li>
+                        <li>Firebase Authentication for secure account access</li>
+                        <li>Firebase Security Rules that restrict data access to only your account</li>
+                        <li>Firebase App Check to prevent unauthorized access</li>
+                    </ul>
+                    <p>
+                        Your focus session preferences and statistics are stored in Firebase Firestore. 
+                        This enables syncing across devices if you sign in with the same account.
+                    </p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Data Sharing and Disclosure</h2>
+                    <p>We do NOT sell, trade, or rent your personal information to third parties.</p>
+                    <p>We may share information only in the following limited circumstances:</p>
+                    <ul>
+                        <li><strong>Service Providers:</strong> We use Firebase (Google) for authentication and data storage. Firebase's privacy policy applies to their processing of data.</li>
+                        <li><strong>Legal Requirements:</strong> We may disclose information if required by law or in response to valid legal requests.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Third-Party Services</h2>
+                    <p>The App uses the following third-party services:</p>
+                    <ul>
+                        <li><strong>Firebase Authentication:</strong> For secure user account management</li>
+                        <li><strong>Firebase Firestore:</strong> For storing user data and focus session history</li>
+                        <li><strong>Apple Screen Time APIs:</strong> For app blocking functionality</li>
+                    </ul>
+                    <p>
+                        These services have their own privacy policies. We encourage you to review:
+                    </p>
+                    <ul>
+                        <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy Policy</a></li>
+                        <li><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Data Retention</h2>
+                    <p>
+                        We retain your data for as long as your account is active. Focus session history is 
+                        retained for up to 180 days to provide statistics and streak calculations.
+                    </p>
+                    <p>
+                        You can delete your account and all associated data at any time from within the App 
+                        settings. Upon account deletion, all your data will be permanently removed from our servers.
+                    </p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Your Rights</h2>
+                    <p>You have the right to:</p>
+                    <ul>
+                        <li><strong>Access:</strong> Request a copy of the data we hold about you</li>
+                        <li><strong>Correction:</strong> Request correction of inaccurate data</li>
+                        <li><strong>Deletion:</strong> Delete your account and all associated data</li>
+                        <li><strong>Revoke Permissions:</strong> Revoke Screen Time permissions at any time via device Settings</li>
+                        <li><strong>Opt-out:</strong> Disable notifications in the App or device Settings</li>
+                    </ul>
+                    <p>To exercise these rights, contact us at <a href="mailto:tymoteusz707@gmail.com">tymoteusz707@gmail.com</a></p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Children's Privacy</h2>
+                    <p>
+                        The App is not intended for children under 13 years of age. We do not knowingly collect 
+                        personal information from children under 13. If you are a parent or guardian and believe 
+                        your child has provided us with personal information, please contact us immediately at 
+                        <a href="mailto:tymoteusz707@gmail.com">tymoteusz707@gmail.com</a> and we will delete such information.
+                    </p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>International Data Transfers</h2>
+                    <p>
+                        Your information may be transferred to and processed in countries other than your own. 
+                        Firebase servers are located globally. By using the App, you consent to the transfer 
+                        of your information to these locations.
+                    </p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Changes to This Privacy Policy</h2>
+                    <p>
+                        We may update this Privacy Policy from time to time. We will notify you of any changes 
+                        by posting the new Privacy Policy on this page and updating the "Last Updated" date. 
+                        You are advised to review this Privacy Policy periodically for any changes.
+                    </p>
+                </div>
+
+                <div class="legal-section">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions about this Privacy Policy, please contact us:</p>
+                    <div class="contact-details">
+                        <p><strong>Developer:</strong> Tymoteusz Ferlas</p>
+                        <p><strong>Email:</strong> <a href="mailto:tymoteusz707@gmail.com">tymoteusz707@gmail.com</a></p>
+                        <p><strong>Location:</strong> Poland</p>
+                    </div>
+                </div>
+
+                <div class="back-link">
+                    <a href="index.html">← Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Reboot. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="privacy_policy_rebootapp.html">Privacy Policy</a> · 
+                <a href="terms_of_service.html">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
